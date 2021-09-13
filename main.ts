@@ -23,7 +23,6 @@ basic.forever(function () {
             basic.showString("Draw")
             basic.pause(100)
         } else {
-            music.playMelody("C5 A B G A F G E ", 120)
             if (playerOne > playerTwo) {
                 basic.showString("P1 - Wins")
             } else {
